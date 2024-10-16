@@ -1,0 +1,83 @@
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+.main-content {
+	margin-left: 270px;
+	padding: 20px;
+}
+
+.jornada-header {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.match-row {
+	background-color: white;
+	border: 1px solid #dee2e6;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.team-logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.result {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+.actions button {
+	margin-right: 5px;
+}
+
+.header-controls {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.header-controls button {
+	margin-right: 10px;
+}
+
+.match-info {
+	font-size: 14px;
+	color: #666;
+}
+
+.jornada-navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.small-badge {
+	font-size: 0.7rem;
+	top: 0.2rem;
+	right: 0.5rem;
+	z-index: 1;
+}
+
+.jornada-navigation button {
+	background-color: #f8f9fa;
+	border: none;
+	font-size: 18px;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.jornada-navigation span {
+	font-weight: bold;
+}
